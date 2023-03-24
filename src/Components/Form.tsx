@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import { FormEvent, useRef, useState } from 'react';
-import {useForm} from 'react-hook-form'
+import {FieldValues, useForm} from 'react-hook-form'
 
 interface fomData {
   name: string,
