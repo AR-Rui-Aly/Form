@@ -18,9 +18,6 @@ const Form = () => {
   const onSubmit = (data: FieldValues) => console.log(data);
 
   
-
- 
-  
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="mb-3">
